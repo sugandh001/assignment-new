@@ -1,0 +1,34 @@
+# Assignment New
+
+This project is a simple static website created in the local folder `D:\gitprojects\assignment-new`.
+
+## Project overview
+- Project type: Static HTML page
+- Main file: `index.html`
+- Purpose: A basic webpage assignment or demo project
+
+## How to view it locally
+1. Open the project folder in VS Code.
+2. Open `index.html` in your browser.
+3. You can also use a browser preview or live preview extension.
+
+## Files included
+- `index.html` — the main page content
+- `README` — project documentation
+
+## Publish to GitHub
+Run the following commands in PowerShell:
+
+```powershell
+cd "D:\gitprojects\assignment-new"
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/sugandh001/assignment-new.git
+git push -u origin main
+```
+
+## Notes
+This project is currently stored locally and can be pushed to GitHub once the remote repository is created and connected.
+    
